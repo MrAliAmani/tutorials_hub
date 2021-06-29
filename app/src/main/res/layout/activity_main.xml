@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/padding_horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_text"
+            android:text="@string/android"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/padding_text"
+            android:text="@string/tutorials"
+            android:textColor="@color/teal_200"
+            android:textSize="@dimen/title"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="@dimen/icon"
+            android:layout_height="@dimen/icon"
+            android:background="@drawable/android"
+            android:scaleType="fitEnd"
+            android:layout_gravity="center"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hub"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_hub"
+            android:textStyle="bold" />
+
+    <!-- floating hint -->
+    </LinearLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            app:hintTextColor="@color/white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/margin_vertical"
+                android:hint="@string/name"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/background" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/margin_vertical"
+        android:hint="@string/email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:backgroundTint="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/margin_vertical"
+        android:hint="@string/password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:backgroundTint="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/margin_vertical"
+        android:hint="@string/confirm_password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        app:backgroundTint="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/margin_vertical"
+        android:backgroundTint="@color/teal_200"
+        android:padding="@dimen/padding_button"
+        android:text="@string/register"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/margin_forgot_button"
+        android:backgroundTint="@color/background"
+        android:text="@string/member"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+</LinearLayout>

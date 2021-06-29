@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Tutorials Hub</string>
+
+    <string name="android">android</string>
+    <string name="tutorials">TUTORIALS</string>
+    <string name="hub">HUB</string>
+
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+
+    <string name="register">Register</string>
+    <string name="member">Already a member? Login</string>
+
+</resources>

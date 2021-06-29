@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="title">42sp</dimen>
+    <dimen name="title_hub">28sp</dimen>
+
+    <dimen name="padding_horizontal">16dp</dimen>
+    <dimen name="padding_text">12dp</dimen>
+    <dimen name="padding_button">20dp</dimen>
+
+    <dimen name="margin_vertical">20dp</dimen>
+    <dimen name="margin_forgot_button">4dp</dimen>
+    <dimen name="margin_top">24dp</dimen>
+
+    <dimen name="icon">32dp</dimen>
+
+</resources>
